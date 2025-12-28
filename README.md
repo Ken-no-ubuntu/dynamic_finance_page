@@ -1,9 +1,3 @@
-This is a comprehensive `README.md` tailored to your project. It explains the tech stack, how to get everything running, and how the different parts (Rust, Docker, JS) talk to each other.
-
-Create a file named **`README.md`** in your root folder and paste this in:
-
----
-
 # 💹 Dynamic Finance Page & Engine
 
 A full-stack financial tracking application featuring a high-performance **Rust** backend, a **PostgreSQL** database running in **Docker**, and a clean **JavaScript** frontend.
@@ -111,7 +105,3 @@ DATABASE_URL=postgres://postgres:postgres@localhost:5432/finance
 * [x] **Persistence:** Uses Docker volumes to ensure data isn't lost on restart.
 * [x] **CORS Enabled:** Backend configured with `Tower-HTTP` to allow frontend communication.
 * [x] **Strict Typing:** Rust `models` ensure data integrity between the DB and the UI.
-
----
-
-**Would you like me to help you add a specific "Analysis" section to this README once you start working on the Python data-tools?**
