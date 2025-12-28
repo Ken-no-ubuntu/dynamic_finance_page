@@ -1,0 +1,25 @@
+financial-engine-project/
+├── .env                  # API Keys & Secrets (DO NOT COMMIT)
+├── docker-compose.yml    # To run your Database (Postgres)
+├── Makefile              # Shortcuts like 'make run-api' or 'make build-rust'
+│
+├── backend-api/          # THE RUST CORE
+│   ├── Cargo.toml
+│   ├── src/
+│   │   ├── main.rs       # Entry point: Server setup & Routing
+│   │   ├── handlers.rs   # API Logic (How to process a request)
+│   │   ├── models.rs     # Data Structures (e.g., Transaction struct)
+│   │   └── database.rs   # SQL connection logic
+│   └── tests/            # Integration tests
+│   └── migrations/schema.sql
+├── data-tools/           # THE PYTHON LAYER
+│   ├── requirements.txt
+│   ├── fetcher.py        # Script to call external APIs (Scipy/Requests)
+│   └── analysis.ipynb    # Jupyter notebook for your math/Bayesian analysis
+│
+└── frontend/             # THE UI
+    └── index.html/        # (Optional) Use React or a simple HTML/JS page
+    └──app.JS
+    └──style.css
+
+
